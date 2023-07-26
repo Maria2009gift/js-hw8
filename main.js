@@ -35,7 +35,7 @@ const numbers = [1, 2, 3, 4, 5,]
 
 let k = -1
 
-while (k <= 3) {
+while (k <= numbers.length) {
     k+= 1
     console.log(numbers[k])
 }
