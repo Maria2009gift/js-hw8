@@ -48,7 +48,7 @@ const numberT5 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 for (let m = 0; m < numberT5.length; m += 1) {
     console.log(m);
   
-    if (m === 6) {
+    if (numberT5[m] === 6) {
       break;
     }
   }
@@ -56,12 +56,9 @@ for (let m = 0; m < numberT5.length; m += 1) {
 // =====6=====
 console.log("Завдання 6, Створити скрипт, який виводить на екран всі числа, які менші за n")
 
-for (let p = 0; p < 20; p+=1) {
+const l = 16
+for (let p = 0; p < l; p+=1) {
     console.log(p);
-  
-    if (p === 16) {
-      break;
-    }
 }
 
 // =====7=====
@@ -74,6 +71,3 @@ for (let d = 1; d < 20; d += 1) {
     }
 console.log(d)
 }
-
-
-
