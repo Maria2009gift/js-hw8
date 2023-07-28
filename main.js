@@ -33,11 +33,11 @@ console.log("Завдання 4, Вивести на екран кожен ел�
 
 const numbers = [1, 2, 3, 4, 5]
 
-let k = -1
+let k = 0
 
-while (k <= numbers.length) {
-    k+= 1
+while (k < numbers.length) {
     console.log(numbers[k])
+    k+= 1
 }
 
 // =====5=====
