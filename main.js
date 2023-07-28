@@ -46,7 +46,7 @@ console.log("Завдання 5, пройтися по масиву та вив�
 const numberT5 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 for (let m = 0; m < numberT5.length; m += 1) {
-    console.log(m);
+    console.log(m)
   
     if (numberT5[m] === 6) {
       break;
@@ -58,7 +58,10 @@ console.log("Завдання 6, Створити скрипт, який вив�
 
 const l = 16
 for (let p = 0; p < l; p+=1) {
-    console.log(p);
+    console.log(p)
+    if (r >= p) {
+        break
+    }
 }
 
 // =====7=====
